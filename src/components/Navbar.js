@@ -50,7 +50,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }) {
             <div className="flex items-center">
               <div className="relative w-8 h-8 sm:w-10 sm:h-10 mr-2">  
                 <Image 
-                  src="/Green-leaves-logo-1.webp" 
+                  src="./Green-leaves-logo-1.webp" 
                   alt="Yoga Zen Logo" 
                   fill
                   sizes="(max-width: 640px) 2rem, 2.5rem"
