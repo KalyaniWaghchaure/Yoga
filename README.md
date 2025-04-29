@@ -41,7 +41,7 @@ https://kalyaniwaghchaure.github.io/Yoga/
 1. Clone the repository:
    ```bash
    git clone https://github.com/KalyaniWaghchaure/Yoga.git
-   cd yoga-wellness-website/nextjs-version
+   cd Yoga
    ```
 
 2. Install dependencies:
