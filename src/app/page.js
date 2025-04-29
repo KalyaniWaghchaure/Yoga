@@ -12,6 +12,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Sidebar from '@/components/sidebar';
 import TestimonialSlider from '@/components/TestimonialSlider';
+import ServicesSection from '@/components/services';
 
 // Animations
 const fadeIn = {
@@ -174,32 +175,9 @@ export default function Home() {
         </div>
         
         <TestimonialSlider/>
+        <ServicesSection/>
 
-        {/* Services Section */}
-        <section className="py-12 md:py-16 px-4">
-          <div className="container mx-auto">
-            <h2 className="text-xl md:text-2xl font-bold text-center mb-8 md:mb-12">Our Services</h2>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-              {services.map((service, index) => (
-                <motion.div
-                  key={index}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true, amount: 0.3 }}
-                  variants={fadeIn}
-                  className="border border-gray-200 rounded-lg overflow-hidden"
-                >
-                  <div className="bg-gray-500 h-36 md:h-48"></div>
-                  <div className="p-3 md:p-4">
-                    <h3 className="font-semibold text-base md:text-lg mb-1 md:mb-2">{service.title}</h3>
-                    <p className="text-gray-600 text-sm md:text-base">{service.description}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+       
 
         {/* Membership Plans */}
         <section className="py-12 md:py-16 px-4 bg-gray-50">
@@ -252,22 +230,6 @@ export default function Home() {
     </div>
   );
 }
-
-// Sample Data
-const services = [
-  {
-    title: "Group Yoga Class",
-    description: "Join our group classes to improve flexibility and find your zen with fellow yoga enthusiasts."
-  },
-  {
-    title: "Private Sessions",
-    description: "Get personalized one-on-one yoga coaching tailored to your needs."
-  },
-  {
-    title: "Meditation Workshops",
-    description: "Learn meditation techniques to calm your mind and enhance mindfulness."
-  }
-];
 
 const plans = [
   {

@@ -70,7 +70,7 @@ export default function Contact() {
             <div className="flex items-center">
               <div className="mr-2">  
                 <Image 
-                  src="/Green-leaves-logo-1.webp" 
+                  src="./Green-leaves-logo-1.webp" 
                   alt="Yoga Zen Logo" 
                   width={50} 
                   height={50}

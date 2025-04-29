@@ -41,7 +41,7 @@ export default function About() {
             <div className="flex items-center">
               <div className="mr-2">  
                 <Image 
-                  src="/Green-leaves-logo-1.webp" 
+                  src="./Green-leaves-logo-1.webp" 
                   alt="Yoga Zen Logo" 
                   width={50} 
                   height={50}
@@ -96,7 +96,7 @@ export default function About() {
               {/* Placeholder for image */}
               <div className="w-full h-full relative">
                 <Image 
-                  src="/peace.jpg" 
+                  src="./peace.jpg" 
                   alt="Peaceful yoga pose" 
                   fill
                   style={{ objectFit: "cover" }} 
@@ -116,7 +116,7 @@ export default function About() {
               {/* Placeholder for image */}
               <div className="w-full h-full relative">
                 <Image 
-                  src="/api/placeholder/800/400" 
+                  src="https://media.istockphoto.com/id/2182804260/photo/athletic-women-exercising-yoga-in-tree-pose-in-a-health-club.webp?a=1&b=1&s=612x612&w=0&k=20&c=pGF7ANKI-HS6AcQhCNpps0wxXRgnRykuhr8QJODvWoo=" 
                   alt="Yoga class in session" 
                   fill
                   style={{ objectFit: "cover" }} 

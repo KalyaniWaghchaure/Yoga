@@ -9,25 +9,25 @@ const TestimonialSlider = () => {
       quote: "Yoga brings me joy and peace every day. The instructors at YogaZen have completely transformed my practice.",
       name: "Maria",
       role: "Yoga Enthusiast",
-      avatar: "/avatar1.png"
+      avatar: "./avatar.png"
     },
     {
       quote: "I've been practicing yoga for years, but the techniques I learned at YogaZen took my practice to another level.",
       name: "James",
       role: "Regular Member",
-      avatar: "/avatar2.png"
+      avatar: "./avatar.png"
     },
     {
       quote: "The community at YogaZen is so supportive. I feel like I've found my tribe of like-minded wellness seekers.",
       name: "Sophia",
       role: "New Member",
-      avatar: "/avatar3.png"
+      avatar: "./avatar.png"
     },
     {
       quote: "Stress and anxiety melt away during my yoga sessions. It's become an essential part of my daily routine.",
       name: "Alex",
       role: "Premium Member",
-      avatar: "/avatar4.png"
+      avatar: "./avatar.png"
     }
   ];
 
