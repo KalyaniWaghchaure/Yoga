@@ -96,7 +96,7 @@ export default function Home() {
                   className="flex justify-center"
                 >
                   <Image 
-                    src="/yoga.png" 
+                    src="./yoga.png" 
                     alt="Yoga Zen Logo" 
                     width={isMobile ? 300 : 500} 
                     height={isMobile ? 300 : 500}
